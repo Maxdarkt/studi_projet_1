@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+/*----- Header -----*/
+header{
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+/*----- Caroussel -----*/
+#carouselHome{
+    width: 100%;
+    background-color: black;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/*----- body -----*/
+.test{
+    height: 500px
+}
