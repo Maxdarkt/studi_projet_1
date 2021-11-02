@@ -14,6 +14,9 @@ header{
     right: 0;
     z-index: 100;
 }
+header nav {
+    height: 50px;
+}
 /*----- Main -----*/
 #main-container {
     margin-top: 50px;
@@ -55,4 +58,32 @@ article{
 /*----- register -----*/
 #register-infos i{
     font-size: 1.5rem;
+}
+
+/*----- footer -----*/
+footer{
+    background-color: black;
+}
+footer h5{
+    font-size: 1rem;
+    font-weight: bold;
+}
+footer p{
+    font-size: 0.9rem;
+}
+
+.follow-me i{
+    font-size: 50px;
+}
+
+.underline-dojo{
+    width: 140px;
+    border-bottom: 1px solid white;
+    margin: 7px 0;
+}
+
+.underline-follow{
+    width: 110px;
+    border-bottom: 1px solid white;
+    margin: 7px 0;
 }
