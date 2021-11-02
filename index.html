@@ -7,11 +7,14 @@
     <meta name="description" content="L’aïkikaï de Poisy est une association de loi 1901 créée en juillet 2004 par quatre pratiquants désireux de faire partager leur passion de l'Aïkido dans une ambiance de détente et de plaisir.">
     <!-- Bootstrap CSS -->
     <link href="/src/dependencies/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap icons css-->
+    <link href="/src/icons/bootstrap-icons.css" rel="stylesheet">
     <!-- Our CSS -->
     <link rel="stylesheet" href="/src/css/style.css">
     <title>Aikaï de Poisy</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="container-fluid text-light d-flex justify-content-between align-items-center">
         <div id="logo_aikido" class="d-flex align-items-center">
             <img src="/src/images/aikido-chars.png" alt="Logo AIKIDO" height="40px">
@@ -30,6 +33,7 @@
             </ul>
         </nav>
     </header>
+    <!-- Main -->
     <main id="main-container">
         <!-- Carroussel -->
         <section id="carousel-container">
@@ -80,10 +84,10 @@
                 </a>
             </div>
         </section>
-        <!-- Histoire -->
+        <!-- Article 1 => Aside : news | article : Aikido & Teachers -->
         <article class="container-fluid">
             <div id="container-article" class="bg-secondary row">
-                    <!-- Les dernières infos -->
+                    <!-- Last news -->
                     <aside class="border border-primary col-2 mt-3">
                         <h1 class="h3">Les dernières informations du club</h1>
                         <hr>
@@ -120,10 +124,11 @@
                             </p>
                         </div>
                     </aside>
-                    <!-- Corps -->
+                    <!-- Content : Aikido / teachers -->
                     <article class="border border-primary col-10 mt-3">
+                        <!-- AIKIDO -->
                         <section class="row">
-                            <div class="col-4 border border-light d-flex justify-content-center align-items-center">
+                            <div class="col-4 d-flex justify-content-center align-items-center">
                                 <figure class="d-flex flex-column justify-content-center align-items-center mt-2">
                                     <img src="/src/images/morihei.jpg" alt="Morihei Ueshiba">
                                     <figcaption class="text-center">
@@ -132,7 +137,7 @@
                                     </figcaption>
                                 </figure>
                             </div>
-                            <div class="col-8 border border-light">
+                            <div class="col-8">
                                 <h1 class="h2">
                                     D'où vient l'AIKIDO ?
                                 </h1>
@@ -144,7 +149,7 @@
                                 </p>
                                 <h3 class="h5">Citations :</h3>
                                 <figure>
-                                    <blockquote class="mb-0">
+                                    <blockquote class="mb-0 blockquote">
                                         <p class="mb-0"><i>
                                             "Nul ne peut m'enlever ma force puisque je ne m'en sers pas."
                                         </i></p>
@@ -155,7 +160,7 @@
 
                                 </figure>
                                 <figure>
-                                    <blockquote class="mb-0">
+                                    <blockquote class="mb-0 blockquote">
                                         <p class="mb-0"><i>
                                         "Si tu vaincs un ennemi, il sera toujours ton ennemi. Si tu convaincs un ennemi, il deviendra ton ami."
                                         </i></p>
@@ -164,11 +169,11 @@
                                         Morihei Ueshiba
                                     </figcaption>
                                 </figure>
-                                
                             </div>
                         </section>
-                        <section>
-                            <h2 class="w-100 text-center">Les professeurs</h2>
+                        <!-- Teachers -->
+                        <section id="container-teachers">
+                            <h2 class="w-100 text-center my-5">Les professeurs</h2>
                             <div class="row row-cols-1 row-cols-md-3">
                                 <div class="col mb-4">
                                     <div class="card">
@@ -225,13 +230,134 @@
                                     </div>
                                 </div>
                             </div>
-                            
                         </section>
                     </article>
-                    <video src="https://www.youtube.com/watch?v=DEkBqK_P00s"></video>
             </div>
-            
         </article>
+        <!-- article 2 : courses / register -->
+        <article class="w-100 overflow-hidden">
+            <!-- Courses -->
+            <section id="container-courses" class="border border-primary">
+                <h2 class="text-center my-3">Les cours</h2>
+                <div class="row">
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="mb-3">Cours enfants & baby</h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                Mercredi de 17h 30 à 18h30
+                            </li>
+                            <li>
+                                Vendredi de 17h 30 à 18h30
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="mb-3">Cours ados</h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                Mercredi de 20h00 à 21h30
+                            </li>
+                            <li>
+                                Vendredi de 18h30 à 19h45
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="mb-3">Cours adultes</h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                Mercredi de 20h00 à 21h30
+                            </li>
+                            <li>
+                                Vendredi de 20h00 à 21h30
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- register -->
+            <section id="container-register">
+                <h2 class="text-center my-3">Inscription</h2>
+                <div class="row">
+                    <!-- register form -->
+                    <div id="register-form" class="col-6">
+                        <h3 class="text-center mb-3">Tu souhaites t'inscrire ?</h3>
+                        <form action="#" method="POST" class="px-3">
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label text-right" for="firstName">
+                                    Prénom<span class="text-danger"> *</span> :
+                                </label>
+                                <input class="col-sm-9 form-control mb-3" id="firstName" name="firstName" type="text" placeholder="Jean" required>
+                                <label class="col-sm-3 col-form-label text-right" for="lastName">
+                                    Nom<span class="text-danger"> *</span> :
+                                </label>
+                                <input class="col-sm-9 form-control mb-3" id="lastName" name="lastName" type="text" placeholder="Dupond" required>
+                                <label class="col-sm-3 col-form-label text-right" for="email">
+                                    E-mail<span class="text-danger"> *</span> :
+                                </label>
+                                <input class="col-sm-9 form-control mb-3" id="email" name="email" type="email" placeholder="jean.dupond@gmail.com" required>
+                                <label class="col-sm-3 col-form-label text-right" for="mobile">
+                                    mobile<span class="text-danger"> *</span> :
+                                </label>
+                                <input class="col-sm-9 form-control mb-3" id="mobile" name="mobile" type="tel" placeholder="0612345678" required>
+                                <label class="col-sm-3 col-form-label text-right" for="file">
+                                    Fichiers :
+                                </label>
+                                <input class="col-sm-9 form-control-file mb-3 px-0" id="file" name="file" type="file">
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-sm-9 px-0">
+                                    <button type="submit" class="btn btn-dark mr-4">Envoyer</button>
+                                    <button type="reset" class="btn btn-secondary">Effacer</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row justify-content-end">
+                            <p class="col-sm-9 px-1 mt-1">
+                                <i>
+                                Tu peux venir essayer sur 2 séances avant de te décider !
+                                </i>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- register infos-->
+                    <div id="register-infos" class="col-6">
+                        <h3 class="text-center mb-3">Informations nécessaires pour l'inscription</h3>
+                        <div class="row px-2 d-flex align-items-center">
+                            <i class="bi bi-check-square col-1"></i>
+                            <p class="col-11 align-middle my-0">
+                                Un certificat médical de moins de deux mois portant la mention « pas de contre-indication à la pratique de l’Aïkido ».
+                            </p>
+                            <i class="bi bi-check-square col-1"></i>
+                            <p class="col-11 align-middle my-0">
+                                Un keikogi blanc (kimono) type judo.
+                            </p>
+                            <i class="bi bi-check-square col-1"></i>
+                            <p class="col-11 align-middle my-0">
+                                Une ceinture blanche.
+                            </p>
+                            <i class="bi bi-check-square col-1"></i>
+                            <p class="col-11 align-middle my-0">
+                                Une paire de zoris (tongs).
+                            </p>
+                            <i class="bi bi-check-square-fill col-1 text-success"></i>
+                            <p class="col-11 align-middle my-0">
+                                Les armes sont prêtées par le club la première année.
+                            </p>
+                            <div class="col-12 text-justify mt-3">
+                                <p>
+                                    L’ Aïkikaï de Poisy et d’Epagny Metz-Tessy sont partenaire :
+                                </p>
+                                <p>
+                                    De la Région Auvergne Rhône-Alpes avec la convention PASS’Région, possibilité de 30€ de réduction sur l’inscription pour les garçons et de 60€ pour les filles (soumis à conditions). concerne les lycéens, les jeunes en apprentissage… (Plus de renseignements au club à la rentrée et/ou dans les lycées).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+            <!-- <video src="https://www.youtube.com/watch?v=DEkBqK_P00s"></video> -->
     </main>
 
     

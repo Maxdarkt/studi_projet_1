@@ -41,3 +41,18 @@ header{
 article{
     min-height: 500px;
 }
+
+/*----- card Teachers -----*/
+#container-teachers .card-text{
+    min-height: 45px;
+}
+
+/*----- courses -----*/
+#container-courses li{
+    font-size: 1.2rem;
+}
+
+/*----- register -----*/
+#register-infos i{
+    font-size: 1.5rem;
+}
