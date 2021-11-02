@@ -4,7 +4,7 @@ body{
     padding: 0;
     font-size: 16px;
 }
-
+/*----- START FONT-SIZE -----*/
 /*----- Title font-size -----*/
 /* Par défault
 *h1 : 40px
@@ -36,7 +36,30 @@ h4{
 #container-lastNews h3{
     font-size: 1.2rem;
 }
+/*Home : courses h2*/
+#container-courses h3{
+    font-size: 1.5rem;
+    /* min-height: 57px; */
+}
+/*Home: p*/
+#container-lastNews p{
+    font-size: 0.9rem;
+}
+/*Footer: p*/
+footer p{
+    font-size: 0.9rem;
+}
+/*----- courses -----*/
+#container-courses li{
+    font-size: 1.2rem;
+}
+/*----- register -----*/
+#register-infos i{
+    font-size: 1.5rem;
+}
+/*----- END FONT-SIZE ----*/
 
+/*----- START STYLE BY SECTION -----*/
 /*----- Header -----*/
 header{
     background-color: black;
@@ -76,24 +99,12 @@ header nav {
 #container-teachers .card-text{
     min-height: 45px;
 }
-/*----- courses -----*/
-#container-courses li{
-    font-size: 1.2rem;
-}
-/*----- register -----*/
-#register-infos i{
-    font-size: 1.5rem;
-}
-
 /*----- footer -----*/
 footer{
     background-color: black;
 }
 footer h4{
     font-weight: bold;
-}
-footer p{
-    font-size: 0.9rem;
 }
 .follow-me i{
     font-size: 50px;
@@ -108,3 +119,4 @@ footer p{
     border-bottom: 1px solid white;
     margin: 7px 0;
 }
+/*----- END STYLE BY SECTION -----*/
