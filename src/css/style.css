@@ -1,8 +1,42 @@
+/*----- body html -----*/
 body{
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 16px;
 }
+
+/*----- Title font-size -----*/
+/* Par défault
+*h1 : 40px
+*h2 : 32px
+*h3 : 28px
+*h4 : 16px
+*/
+/*main title*/
+h1, h2{
+    font-size: 2.2rem; /*35.2px*/
+}
+h2{
+    font-size: 2.2rem; /*35.2px*/
+}
+h3{
+    font-size: 1.5rem; /*24px*/
+}
+h4{
+    font-size: 1.1rem; /*17.6px*/
+}
+/*Home : container-aikido*/
+#container-aikido h2{
+    font-size: 1.3rem;
+}
+/*Home : aside title*/
+#container-lastNews h2{
+    font-size: 1.5rem;
+}
+#container-lastNews h3{
+    font-size: 1.2rem;
+}
+
 /*----- Header -----*/
 header{
     background-color: black;
@@ -17,7 +51,8 @@ header{
 header nav {
     height: 50px;
 }
-/*----- Main -----*/
+
+/*----- main-container -----*/
 #main-container {
     margin-top: 50px;
 }
@@ -25,36 +60,26 @@ header nav {
 #carousel-container {
     background-color: black;
 }
-
 #carouselHome{
     width: 100%;
     background-color: black;
 }
-
 .carousel-inner {
     width: 100%;
 }
-
 .carousel-item img {
     width: 100%;
     height: auto;
 }
-
-/*----- article -----*/
-article{
-    min-height: 500px;
-}
-
+/*----- Article -----*/
 /*----- card Teachers -----*/
 #container-teachers .card-text{
     min-height: 45px;
 }
-
 /*----- courses -----*/
 #container-courses li{
     font-size: 1.2rem;
 }
-
 /*----- register -----*/
 #register-infos i{
     font-size: 1.5rem;
@@ -64,24 +89,20 @@ article{
 footer{
     background-color: black;
 }
-footer h5{
-    font-size: 1rem;
+footer h4{
     font-weight: bold;
 }
 footer p{
     font-size: 0.9rem;
 }
-
 .follow-me i{
     font-size: 50px;
 }
-
 .underline-dojo{
     width: 140px;
     border-bottom: 1px solid white;
     margin: 7px 0;
 }
-
 .underline-follow{
     width: 110px;
     border-bottom: 1px solid white;
