@@ -7,9 +7,22 @@ body{
 header{
     background-color: black;
     font-size: 1.2rem;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+/*----- Main -----*/
+#main-container {
+    margin-top: 50px;
+}
+/*----- Caroussel -----*/
+#carousel-container {
+    background-color: black;
 }
 
-/*----- Caroussel -----*/
 #carouselHome{
     width: 100%;
     background-color: black;
@@ -24,7 +37,7 @@ header{
     height: auto;
 }
 
-/*----- body -----*/
-.test{
-    height: 500px
+/*----- article -----*/
+article{
+    min-height: 500px;
 }

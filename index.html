@@ -16,7 +16,7 @@
         <div id="logo_aikido" class="d-flex align-items-center">
             <img src="/src/images/aikido-chars.png" alt="Logo AIKIDO" height="40px">
         </div>
-        <nav class="d-flex align-items-center">
+        <nav role="navigation" class="d-flex align-items-center">
             <ul class="list-unstyled d-flex mb-0">
                 <li class="h-100">
                     <a href="#" class="text-light h-100">Home</a>
@@ -30,10 +30,10 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main-container">
         <!-- Carroussel -->
-        <section class="">
-            <div id="carouselHome" class="carousel slide" data-ride="carousel" data-interval="5000">
+        <section id="carousel-container">
+            <div id="carouselHome" class="carousel slide container" data-ride="carousel" data-interval="5000">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselHome" data-slide-to="1"></li>
@@ -42,28 +42,28 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="src/images/aikido_demo_1.jpg" class="d-block" alt="...">
+                        <img src="src/images/aikido_demo_1.jpg" class="d-block" alt="Présentation AIKIDO">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>合 気 道</h5>
                             <p>"AIKIDO" : La voie de l’union des énergies.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="/src/images/aikido_demo_2.jpg" class="d-block" alt="...">
+                        <img src="/src/images/aikido_demo_2.jpg" class="d-block" alt="AIKIDO combat">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>合 - "AI"</h5>
                             <p>"AI" : représente l'harmonie, la coordination, l'union.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="src/images/aikido_demo_3.jpg" class="d-block" alt="...">
+                        <img src="src/images/aikido_demo_3.jpg" class="d-block" alt="AIKIDO combat salut">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>気 - "KI"</h5>
                             <p>"KI" : englobe la force de vie, l’énergie.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="src/images/aikido_demo_4.jpg" class="d-block" alt="...">
+                        <img src="src/images/aikido_demo_4.jpg" class="d-block" alt="AIKIDO combat">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>道 - "DO"</h5>
                             <p>"DO" : signifie l’étude, la recherche, la voie.</p>
@@ -81,10 +81,156 @@
             </div>
         </section>
         <!-- Histoire -->
-        <article>
-            <div class="test">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel eveniet vero perferendis aperiam quis dolorem excepturi ab quasi unde natus ratione doloremque, fuga adipisci in! Dolor a error officia.
+        <article class="container-fluid">
+            <div id="container-article" class="bg-secondary row">
+                    <!-- Les dernières infos -->
+                    <aside class="border border-primary col-2 mt-3">
+                        <h1 class="h3">Les dernières informations du club</h1>
+                        <hr>
+                        <div>
+                            <h2 class="h4">
+                                Reprise des cours saison 2021/2022
+                            </h2>
+                            <p>
+                                10 SEPTEMBRE 2020 / AIKIDO-POISY
+                            </p>
+                            <p class="text-justify">
+                                Bonjour à tous ! <br/>
+                                Nous avons le plaisir de vous annoncer la reprise des cours vendredi 3 septembre! Avec le pass sanitaire et les gestes barrières…<br/>
+                                Mais aussi le sourire ! ! 😉😉
+                            </p>
+                        </div>
+                        <hr>
+                        <div>
+                            <h2 class="h4">
+                                Annulation des cours suite au coronavirus
+                            </h2>
+                            <p>
+                                1 MARS 2020 / AIKIDO-POISY
+                            </p>
+                            <p class="text-justify">
+                                Bonsoir à toutes et à tous,<br/>
+                                Suite à l’allocution du Président de la République, la municipalité de Poisy s’est réunie aujourd’hui.<br/>
+                                Elle a décidé à l’issue de sa réunion de fermer le gymnase et les salles annexes à partir de Lundi 16/03/2020 et cela pour une durée indéfinie.<br/>
+                                En conséquence, tous les cours d’Aïkido sont annulés  jusqu’à nouvel-ordre.<br/>
+                                En espérant que cette  épidémie pourra être contrôlée rapidement pour pouvoir tous vous revoir sur les Tatamis,<br/>
+                                Prenez tous soin de vous et soyez tous prudents.
+                                Amicalement,<br/>
+                                La Direction de l’Aïkikaï de Poisy
+                            </p>
+                        </div>
+                    </aside>
+                    <!-- Corps -->
+                    <article class="border border-primary col-10 mt-3">
+                        <section class="row">
+                            <div class="col-4 border border-light d-flex justify-content-center align-items-center">
+                                <figure class="d-flex flex-column justify-content-center align-items-center mt-2">
+                                    <img src="/src/images/morihei.jpg" alt="Morihei Ueshiba">
+                                    <figcaption class="text-center">
+                                        <strong>Morei Ueshiba - Fondateur de l'AIKIDO</strong><br/>
+                                        1883 - 1969
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-8 border border-light">
+                                <h1 class="h2">
+                                    D'où vient l'AIKIDO ?
+                                </h1>
+                                <p>
+                                    Comme la plupart des budō modernes (judo, karaté, kendo…), l'aïkido est l'héritier des arts martiaux développés durant les périodes de guerre, qui furent modifiés lors des périodes de paix (ère Tokugawa) et de la disparition de la classe des samouraïs (restauration de Meiji)4.
+                                </p>
+                                <p>
+                                    Morihei Ueshiba était un fervent pratiquant shinto, il fut également initié à la religion Ōmoto-kyō, au bouddhisme Shingon et au Kototama. Il avait par ailleurs une expérience réelle de la guerre : il participa à la Guerre russo-japonaise, et nombre de ses élèves moururent durant la Seconde Guerre mondiale. Son parcours, emblématique d'une authentique réalisation spirituelle, passant de techniques guerrières visant à tuer rapidement un adversaire à un art visant l'accomplissement de l'être humain, le conduisit à recevoir la révélation de nouvelles techniques martiales, et à devoir nous transmettre l'« art de paix », dont le but serait d'améliorer l'Homme, d'un point de vue physique mais surtout comportemental (tolérance et paix) et spirituel.
+                                </p>
+                                <h3 class="h5">Citations :</h3>
+                                <figure>
+                                    <blockquote class="mb-0">
+                                        <p class="mb-0"><i>
+                                            "Nul ne peut m'enlever ma force puisque je ne m'en sers pas."
+                                        </i></p>
+                                    </blockquote>
+                                    <figcaption>
+                                        Morihei Ueshiba
+                                    </figcaption>
+
+                                </figure>
+                                <figure>
+                                    <blockquote class="mb-0">
+                                        <p class="mb-0"><i>
+                                        "Si tu vaincs un ennemi, il sera toujours ton ennemi. Si tu convaincs un ennemi, il deviendra ton ami."
+                                        </i></p>
+                                    </blockquote>
+                                    <figcaption>
+                                        Morihei Ueshiba
+                                    </figcaption>
+                                </figure>
+                                
+                            </div>
+                        </section>
+                        <section>
+                            <h2 class="w-100 text-center">Les professeurs</h2>
+                            <div class="row row-cols-1 row-cols-md-3">
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <img src="/src/images/christophe-2-300x225.jpg" class="card-img-top" alt="professeur Christophe Minet">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Christophe Minet</h5>
+                                            <p class="card-text">Ceinture noire 5ème DAN CSDGE UFA / FFAB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <img src="/src/images/boris-300x225.jpg" class="card-img-top" alt="professeur Boris Kraak">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Boris Kraak</h5>
+                                            <p class="card-text">Ceinture noire 3ème DAN CSDGE UFA / FFAB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <img src="/src/images/loic-300x225.jpg" class="card-img-top" alt="professeur Loïc Goduel">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Loïc Goduel</h5>
+                                            <p class="card-text">Ceinture noire 2ème DAN CSDGE UFA / FFAB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <img src="/src/images/elodie-300x225-300x225.jpg" class="card-img-top" alt="professeur Elodie Minet">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Elodie Minet</h5>
+                                            <p class="card-text">Ceinture noire 2ème DAN CSDGE UFA / FFAB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <img src="/src/images/Nico-300x225.jpg" class="card-img-top" alt="professeur Nicolas Milliet">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nicolas Milliet</h5>
+                                            <p class="card-text">Ceinture noire 2ème DAN CSDGE UFA / FFAB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <img src="/src/images/greg-300x225.jpg" class="card-img-top" alt="professeur Grégory Asta-Giacometti">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Grégory Asta-Giacometti</h5>
+                                            <p class="card-text">Ceinture noire 1er DAN CSDGE UFA / FFAB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </section>
+                    </article>
+                    <video src="https://www.youtube.com/watch?v=DEkBqK_P00s"></video>
             </div>
+            
         </article>
     </main>
 
