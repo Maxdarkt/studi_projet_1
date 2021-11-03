@@ -1,17 +1,16 @@
+/*---------------------*/
 /*----- body html -----*/
+/*---------------------*/
 body{
     margin: 0;
     padding: 0;
     font-size: 16px;
+    min-height: 100vh;
 }
+/*---------------------------*/
 /*----- START FONT-SIZE -----*/
+/*---------------------------*/
 /*----- Title font-size -----*/
-/* Par défault
-*h1 : 40px
-*h2 : 32px
-*h3 : 28px
-*h4 : 16px
-*/
 /*main title*/
 h1, h2{
     font-size: 2.2rem; /*35.2px*/
@@ -59,7 +58,9 @@ footer p{
 }
 /*----- END FONT-SIZE ----*/
 
+/*----------------------------------*/
 /*----- START STYLE BY SECTION -----*/
+/*----------------------------------*/
 /*----- Header -----*/
 header{
     background-color: black;
@@ -120,3 +121,4 @@ footer h4{
     margin: 7px 0;
 }
 /*----- END STYLE BY SECTION -----*/
+/*--------------------------------*/
