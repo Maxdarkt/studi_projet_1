@@ -17,7 +17,12 @@
     <!-- Header -->
     <header class="container-fluid text-light d-flex justify-content-between align-items-center">
         <div id="logo_aikido" class="d-flex align-items-center">
-            <img src="/src/images/aikido-chars.png" alt="Logo AIKIDO" height="40px">
+            <img src="/src/images/aikido-chars.png" alt="Logo AIKIDO" height="40">
+        </div>
+        <div>
+            <h1>
+                AIKIKAI POISY
+            </h1>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -87,45 +92,8 @@
             </div>
         </section>
         <!-- Article 1 => Aside : news | article : Aikido & Teachers -->
-        <article class="container-fluid">
+        <article id="container-artcile-aside" class="container-fluid">
             <div id="container-article" class="row">
-                <!-- Last news -->
-                <aside id="container-lastNews" class="d-none d-xl-block col-xl-2 pt-3">
-                    <h2>Les dernières informations du club</h2>
-                    <hr>
-                    <div>
-                        <h3>
-                            Reprise des cours saison 2021/2022
-                        </h3>
-                        <p>
-                            10 SEPTEMBRE 2020 / AIKIDO-POISY
-                        </p>
-                        <p class="text-justify">
-                            Bonjour à tous ! <br/>
-                            Nous avons le plaisir de vous annoncer la reprise des cours vendredi 3 septembre! Avec le pass sanitaire et les gestes barrières…<br/>
-                            Mais aussi le sourire ! ! 😉😉
-                        </p>
-                    </div>
-                    <hr>
-                    <div>
-                        <h3>
-                            Annulation des cours suite au coronavirus
-                        </h3>
-                        <p>
-                            1 MARS 2020 / AIKIDO-POISY
-                        </p>
-                        <p class="text-justify">
-                            Bonsoir à toutes et à tous,<br/>
-                            Suite à l’allocution du Président de la République, la municipalité de Poisy s’est réunie aujourd’hui.<br/>
-                            Elle a décidé à l’issue de sa réunion de fermer le gymnase et les salles annexes à partir de Lundi 16/03/2020 et cela pour une durée indéfinie.<br/>
-                            En conséquence, tous les cours d’Aïkido sont annulés  jusqu’à nouvel-ordre.<br/>
-                            En espérant que cette  épidémie pourra être contrôlée rapidement pour pouvoir tous vous revoir sur les Tatamis,<br/>
-                            Prenez tous soin de vous et soyez tous prudents.
-                            Amicalement,<br/>
-                            La Direction de l’Aïkikaï de Poisy
-                        </p>
-                    </div>
-                </aside>
                 <!-- Content : Aikido / teachers -->
                 <article class="col col-xl-10 pt-3">
                     <!-- AIKIDO -->
@@ -141,9 +109,9 @@
                             </figure>
                         </div>
                         <div class="col-md-8">
-                            <h1>
+                            <h2>
                                 D'où vient l'AIKIDO ?
-                            </h1>
+                            </h2>
                             <p class="text-justify">
                                 Comme la plupart des budō modernes (judo, karaté, kendo…), l'aïkido est l'héritier des arts martiaux développés durant les périodes de guerre, qui furent modifiés lors des périodes de paix (ère Tokugawa) et de la disparition de la classe des samouraïs (restauration de Meiji)4.
                             </p>
@@ -178,7 +146,7 @@
                     <section id="container-teachers">
                         <h2 class="w-100 text-center my-5">Les professeurs</h2>
                         <div class="row">
-                            <div class="col-12 col-sm-6 col-md-4 mb-4 ">
+                            <div class="col-12 col-sm-6 col-md-4 mb-4">
                                 <div class="card">
                                     <img src="/src/images/christophe-2-300x225.jpg" class="card-img-top" alt="professeur Christophe Minet">
                                     <div class="card-body">
@@ -235,10 +203,47 @@
                         </div>
                     </section>
                 </article>
+                <!-- Last news -->
+                <aside id="container-lastNews" class="d-none d-xl-block col-xl-2 pt-3">
+                    <h2>Les dernières informations du club</h2>
+                    <hr>
+                    <div>
+                        <h3>
+                            Reprise des cours saison 2021/2022
+                        </h3>
+                        <p>
+                            10 SEPTEMBRE 2020 / AIKIDO-POISY
+                        </p>
+                        <p class="text-justify">
+                            Bonjour à tous ! <br/>
+                            Nous avons le plaisir de vous annoncer la reprise des cours vendredi 3 septembre! Avec le pass sanitaire et les gestes barrières…<br/>
+                            Mais aussi le sourire ! ! 😉😉
+                        </p>
+                    </div>
+                    <hr>
+                    <div>
+                        <h3>
+                            Annulation des cours suite au coronavirus
+                        </h3>
+                        <p>
+                            1 MARS 2020 / AIKIDO-POISY
+                        </p>
+                        <p class="text-justify">
+                            Bonsoir à toutes et à tous,<br/>
+                            Suite à l’allocution du Président de la République, la municipalité de Poisy s’est réunie aujourd’hui.<br/>
+                            Elle a décidé à l’issue de sa réunion de fermer le gymnase et les salles annexes à partir de Lundi 16/03/2020 et cela pour une durée indéfinie.<br/>
+                            En conséquence, tous les cours d’Aïkido sont annulés  jusqu’à nouvel-ordre.<br/>
+                            En espérant que cette  épidémie pourra être contrôlée rapidement pour pouvoir tous vous revoir sur les Tatamis,<br/>
+                            Prenez tous soin de vous et soyez tous prudents.
+                            Amicalement,<br/>
+                            La Direction de l’Aïkikaï de Poisy
+                        </p>
+                    </div>
+                </aside>
             </div>
         </article>
         <!-- article 2 : courses / register -->
-        <article class="container border">
+        <article id="container-courses-register" class="container border">
             <!-- Courses -->
             <section id="container-courses">
                 <h2 class="text-center pt-3 mb-4">Les cours</h2>
@@ -389,9 +394,15 @@
                 </h4>
                 <span class="underline-follow"></span>
                 <p>
-                    <img src="/src/images/facebook.svg" height="35px" alt="lien facebook Akikai POISY">
-                    <img src="/src/images/instagram.svg" height="35px" alt="lien facebook Akikai POISY">
-                    <img src="/src/images/twitter.svg" height="35px" alt="lien facebook Akikai POISY">
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-twitter"></i>
+                    </a>
                 </p>
             </div>
         </div>
