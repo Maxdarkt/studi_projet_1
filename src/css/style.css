@@ -1,3 +1,4 @@
+/*||---- General ----||*/
 /*---------------------*/
 /*----- body html -----*/
 /*---------------------*/
@@ -29,10 +30,10 @@ h4{
     font-size: 1.3rem;
 }
 /*Home : aside title*/
-#container-lastNews h2{
+#container-home-lastNews h2{
     font-size: 1.5rem;
 }
-#container-lastNews h3{
+#container-home-lastNews h3{
     font-size: 1.2rem;
 }
 /*Home : courses h2*/
@@ -41,7 +42,7 @@ h4{
     /* min-height: 57px; */
 }
 /*Home: p*/
-#container-lastNews p{
+#container-home-lastNews p{
     font-size: 0.9rem;
 }
 /*Footer: p*/
@@ -61,6 +62,7 @@ footer p{
 /*----------------------------------*/
 /*----- START STYLE BY SECTION -----*/
 /*----------------------------------*/
+/*||---- index.html ----||*/
 /*----- Header -----*/
 header{
     background-color: black;
@@ -75,13 +77,12 @@ header{
 header nav {
     height: 50px;
 }
-
 /*----- main-container -----*/
-#main-container {
+main {
     margin-top: 50px;
 }
 /*----- Caroussel -----*/
-#carousel-container {
+#container-carousel {
     background-color: black;
 }
 #carouselHome{
@@ -132,5 +133,10 @@ footer a i{
     border-bottom: 1px solid white;
     margin: 7px 0;
 }
-/*----- END STYLE BY SECTION -----*/
-/*--------------------------------*/
+/*----- END index.html -----*/
+/*---------------------------*/
+/*||---- news.html ----||*/
+/*----- agenda table -----*/
+#container-agenda td[colspan="2"]{
+    border-bottom: 1px solid #cfcfcf;
+}
